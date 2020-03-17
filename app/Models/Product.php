@@ -18,6 +18,11 @@ class Product extends Model
         return $this->belongsToMany(Category::class);
     }
 
+    public function variations()
+    {
+        return $this->hasMany(ProductVariation::class)->orderBy('order', 'asc');
+    }
+
     public function scopeWithScopes(Builder $builder, $scopes = [])
     {
         return (new Scoper(request()))->apply($builder, $scopes);
