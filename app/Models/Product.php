@@ -2,14 +2,13 @@
 
 namespace App\Models;
 
-use App\Scoping\Scoper;
+use App\Traits\HasPrice;
 use App\Traits\CanBeScoped;
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    use CanBeScoped;
+    use CanBeScoped, HasPrice;
 
     public function getRouteKeyName()
     {
