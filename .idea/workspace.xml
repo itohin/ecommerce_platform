@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5af5b138-7313-41b3-86a9-3f2f58d3bdea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/ProductVariationResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/ProductVariationResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ProductVariation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ProductVariation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Products/ProductVariationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Products/ProductVariationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/ProductIndexResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/ProductIndexResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Products/ProductTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Products/ProductTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductVariationTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductVariationTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/Products/ProductVariationTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="655">
@@ -27,6 +27,36 @@
               <folding>
                 <element signature="e#40#59#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="e#30#54#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductIndexResource.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Resources/ProductIndexResource.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/Products/ProductTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -75,10 +105,7 @@
         <option value="$PROJECT_DIR$/database/factories/ProductVariationFactory.php" />
         <option value="$PROJECT_DIR$/app/Scoping/Scoper.php" />
         <option value="$PROJECT_DIR$/app/Traits/CanBeScoped.php" />
-        <option value="$PROJECT_DIR$/app/Http/Resources/ProductIndexResource.php" />
-        <option value="$PROJECT_DIR$/app/Models/Product.php" />
         <option value="$PROJECT_DIR$/app/Traits/HasPrice.php" />
-        <option value="$PROJECT_DIR$/tests/Unit/Products/ProductTest.php" />
         <option value="$PROJECT_DIR$/app/Cart/Money.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_20_141427_create_stocks_table.php" />
         <option value="$PROJECT_DIR$/database/factories/StockFactory.php" />
@@ -89,6 +116,9 @@
         <option value="$PROJECT_DIR$/app/Models/ProductVariation.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_20_163910_product_variation_stock_view.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Products/ProductVariationTest.php" />
+        <option value="$PROJECT_DIR$/app/Models/Product.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/ProductIndexResource.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Products/ProductTest.php" />
       </list>
     </option>
   </component>
@@ -216,7 +246,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ProductVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;Productvari&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductVariationResource.php&#10;ProductVar&#9;null&#9;null&#10;2020_03_20_163910_product_variation_stock_view&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_163910_product_variation_stock_view.php&#10;2020_03_20_154313_create_product_variation_order_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_154313_create_product_variation_order_table.php&#10;2020_03_20_153643_create_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_153643_create_orders_table.php&#10;StockFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/StockFactory.php&#10;ProductVaria&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;2020_03_20_141427_create_stocks_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_141427_create_stocks_table.php&#10;productVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;productVar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/ProductVariation.php&#10;productTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductTest.php&#10;Product&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Product.php&#10;productI&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductIndexResource.php&#10;ProductScopingTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Products/ProductScopingTest.php&#10;Scoper&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Scoping/Scoper.php&#10;productInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Products/ProductIndexTest.php&#10;ProductVariationTypeFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ProductVariationTypeFactory.php&#10;Productvar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ProductVariationFactory.php&#10;ProductVariationTest&#9;null&#9;null&#10;productvar&#9;null&#9;null&#10;ProductRes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductResource.php&#10;2020_03_19_122838_add_product_variation_type_id_to_product_variations_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_19_122838_add_product_variation_type_id_to_product_variations_table.php&#10;2020_03_17_160835_create_product_variation_types_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_160835_create_product_variation_types_table.php&#10;ProductVariationFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ProductVariationFactory.php&#10;productTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductTest.php&#10;ProductVariationResource&#9;null&#9;null&#10;2020_03_17_152253_create_product_variations_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_152253_create_product_variations_table.php&#10;CategoryTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Categories/CategoryTest.php&#10;Catego&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Category.php&#10;2020_03_17_111710_create_category_product_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_111710_create_category_product_table.php&#10;ProductResource&#9;null&#9;null&#10;ProductFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ProductFactory.php&#10;ProductIn&#9;null&#9;null&#10;2020_03_17_065308_add_description_to_products_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_065308_add_description_to_products_table.php&#10;ProductIndexResource&#9;null&#9;null&#10;web&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/routes/web.php&#10;Pro&#9;null&#9;null&#10;ProductTe&#9;null&#9;null&#10;2020_03_17_063252_create_products_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_063252_create_products_table.php&#10;CategoryIn&#9;null&#9;null&#10;CategoryResource&#9;null&#9;null&#10;Categories\\CategoryController&#9;null&#9;null&#10;CategoryFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/CategoryFactory.php&#10;Models\\Categories\\CategoryTest&#9;null&#9;null&#10;2020_03_15_115132_add_order_to_categories_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_15_115132_add_order_to_categories_table.php&#10;Category&#9;null&#9;null&#10;com&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/composer.json&#10;.env&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/.env&#10;2020_03_15_112255_create_categories_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_15_112255_create_categories_table.php" />
+    <property name="SearchEverywhereHistoryKey" value="ProductTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductTest.php&#10;ProductInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductIndexResource.php&#10;Produ&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Product.php&#10;ProductVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;Productvari&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductVariationResource.php&#10;ProductVar&#9;null&#9;null&#10;2020_03_20_163910_product_variation_stock_view&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_163910_product_variation_stock_view.php&#10;2020_03_20_154313_create_product_variation_order_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_154313_create_product_variation_order_table.php&#10;2020_03_20_153643_create_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_153643_create_orders_table.php&#10;StockFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/StockFactory.php&#10;ProductVaria&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;2020_03_20_141427_create_stocks_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_141427_create_stocks_table.php&#10;productVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;productVar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/ProductVariation.php&#10;productTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductTest.php&#10;Product&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Product.php&#10;productI&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductIndexResource.php&#10;ProductScopingTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Products/ProductScopingTest.php&#10;Scoper&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Scoping/Scoper.php&#10;productInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Products/ProductIndexTest.php&#10;ProductVariationTypeFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ProductVariationTypeFactory.php&#10;Productvar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ProductVariationFactory.php&#10;ProductVariationTest&#9;null&#9;null&#10;productvar&#9;null&#9;null&#10;ProductRes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductResource.php&#10;2020_03_19_122838_add_product_variation_type_id_to_product_variations_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_19_122838_add_product_variation_type_id_to_product_variations_table.php&#10;2020_03_17_160835_create_product_variation_types_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_160835_create_product_variation_types_table.php&#10;ProductVariationFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ProductVariationFactory.php&#10;productTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductTest.php&#10;ProductVariationResource&#9;null&#9;null&#10;2020_03_17_152253_create_product_variations_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_152253_create_product_variations_table.php&#10;CategoryTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Categories/CategoryTest.php&#10;Catego&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Category.php&#10;2020_03_17_111710_create_category_product_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_111710_create_category_product_table.php&#10;ProductResource&#9;null&#9;null&#10;ProductFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ProductFactory.php&#10;ProductIn&#9;null&#9;null&#10;2020_03_17_065308_add_description_to_products_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_065308_add_description_to_products_table.php&#10;ProductIndexResource&#9;null&#9;null&#10;web&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/routes/web.php&#10;Pro&#9;null&#9;null&#10;ProductTe&#9;null&#9;null&#10;2020_03_17_063252_create_products_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_17_063252_create_products_table.php&#10;CategoryIn&#9;null&#9;null&#10;CategoryResource&#9;null&#9;null&#10;Categories\\CategoryController&#9;null&#9;null&#10;CategoryFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/CategoryFactory.php&#10;Models\\Categories\\CategoryTest&#9;null&#9;null&#10;2020_03_15_115132_add_order_to_categories_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_15_115132_add_order_to_categories_table.php&#10;Category&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -258,12 +288,13 @@
       <workItem from="1584469163617" duration="12000" />
       <workItem from="1584620752892" duration="5898000" />
       <workItem from="1584713682127" duration="2831000" />
-      <workItem from="1584769257006" duration="1750000" />
+      <workItem from="1584769257006" duration="1838000" />
+      <workItem from="1584774676937" duration="858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25984000" />
+    <option name="totallyTimeSpent" value="26930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -273,8 +304,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.20507812" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -294,22 +325,22 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20507812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -559,20 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Resources/ProductIndexResource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Cart/Money.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#28#63#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,20 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Products/ProductTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -637,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding>
-            <element signature="e#30#49#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,6 +661,30 @@
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#30#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/ProductIndexResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Products/ProductTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
         </state>
       </provider>
     </entry>
