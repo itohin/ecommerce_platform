@@ -48,6 +48,13 @@ class User extends Authenticatable implements JWTSubject
         return [];
     }
 
+    public function cart()
+    {
+        return $this->belongsToMany(ProductVariation::class, 'cart_user')
+            ->withPivot('quantity')
+            ->withTimestamps();
+    }
+
     /**
      * The attributes that should be cast to native types.
      *
