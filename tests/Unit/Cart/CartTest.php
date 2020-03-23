@@ -3,6 +3,7 @@
 namespace Tests\Unit\Cart;
 
 use App\Cart\Cart;
+use App\Cart\Money;
 use App\Models\ProductVariation;
 use App\Models\User;
 use Tests\TestCase;
@@ -107,5 +108,85 @@ class CartTest extends TestCase
         );
 
         $this->assertTrue($cart->isEmpty());
+    }
+
+    public function test_it_returns_a_money_instance_for_the_subtotal()
+    {
+        $cart = new Cart(
+            $user = factory(User::class)->create()
+        );
+
+        $this->assertInstanceOf(Money::class, $cart->subtotal());
+    }
+
+    public function test_it_gets_correct_subtotal()
+    {
+        $cart = new Cart(
+            $user = factory(User::class)->create()
+        );
+
+        $user->cart()->attach(
+            $product = factory(ProductVariation::class)->create([
+                'price' => 1000
+            ]), [
+                'quantity' => 2
+            ]
+        );
+
+        $this->assertEquals($cart->subtotal()->amount(), 2000);
+    }
+
+    public function test_it_returns_a_money_instance_for_the_total()
+    {
+        $cart = new Cart(
+            $user = factory(User::class)->create()
+        );
+
+        $this->assertInstanceOf(Money::class, $cart->total());
+    }
+
+    public function test_it_sync_cart_to_update_quantity()
+    {
+        $cart = new Cart(
+            $user = factory(User::class)->create()
+        );
+
+        $user->cart()->attach(
+            $product = factory(ProductVariation::class)->create(), [
+                'quantity' => 2
+            ]
+        );
+
+        $cart->sync();
+
+        $this->assertEquals($user->fresh()->cart->first()->pivot->quantity, 0);
+    }
+
+    public function test_it_can_check_if_the_cart_has_changed_after_syncing()
+    {
+        $cart = new Cart(
+            $user = factory(User::class)->create()
+        );
+
+        $user->cart()->attach(
+            $product = factory(ProductVariation::class)->create(), [
+                'quantity' => 2
+            ]
+        );
+
+        $cart->sync();
+
+        $this->assertTrue($cart->hasChanged());
+    }
+
+    public function test_it_doesnt_change_cart()
+    {
+        $cart = new Cart(
+            $user = factory(User::class)->create()
+        );
+
+        $cart->sync();
+
+        $this->assertFalse($cart->hasChanged());
     }
 }

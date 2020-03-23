@@ -8,6 +8,8 @@ class Cart
 {
     protected $user;
 
+    protected $changed = false;
+
     public function __construct($user)
     {
         $this->user = $user;
@@ -32,6 +34,24 @@ class Cart
         $this->user->cart()->detach($productId);
     }
 
+    public function sync()
+    {
+        $this->user->cart->each(function ($product) {
+            $quantity = $product->minStock($product->pivot->quantity);
+
+            $this->changed = $quantity != $product->pivot->quantity;
+
+            $product->pivot->update([
+                'quantity' => $quantity
+            ]);
+        });
+    }
+
+    public function hasChanged()
+    {
+        return $this->changed;
+    }
+
     public function empty()
     {
         $this->user->cart()->detach();
@@ -40,6 +60,20 @@ class Cart
     public function isEmpty()
     {
         return $this->user->cart->sum('pivot.quantity') === 0;
+    }
+
+    public function subtotal()
+    {
+        $subtotal = $this->user->cart->sum(function ($product) {
+            return $product->price->amount() * $product->pivot->quantity;
+        });
+
+        return new Money($subtotal);
+    }
+
+    public function total()
+    {
+        return $this->subtotal();
     }
 
     protected function getStorePayload($products)

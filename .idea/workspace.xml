@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Cart/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Cart/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ProductVariation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ProductVariation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/Cart/CartIndexTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Cart/CartIndexTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/Cart/CartTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Cart/CartTest.php" afterDir="false" />
     </list>
@@ -19,12 +20,21 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Cart.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="713">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductVariation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/ProductVariation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -32,8 +42,8 @@
       <file leaf-file-name="CartTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/Cart/CartTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="96" column="72" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="72" />
+            <state relative-caret-position="333">
+              <caret line="153" column="8" selection-start-line="153" selection-start-column="8" selection-end-line="157" selection-end-column="10" />
               <folding>
                 <element signature="e#35#53#0#PHP" expanded="true" />
               </folding>
@@ -44,8 +54,8 @@
       <file leaf-file-name="CartIndexTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartIndexTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="391">
+              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding>
                 <element signature="e#38#70#0#PHP" expanded="true" />
               </folding>
@@ -56,8 +66,8 @@
       <file leaf-file-name="CartController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="619">
+              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
               <folding>
                 <element signature="e#45#63#0#PHP" expanded="true" />
               </folding>
@@ -84,7 +94,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2020_03_20_154313_create_product_variation_order_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_20_154702_create_product_variation_order_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/ProductVariationResource.php" />
-        <option value="$PROJECT_DIR$/app/Models/ProductVariation.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_20_163910_product_variation_stock_view.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Products/ProductVariationTest.php" />
         <option value="$PROJECT_DIR$/app/Models/Product.php" />
@@ -120,8 +129,9 @@
         <option value="$PROJECT_DIR$/tests/Feature/Cart/CartDestroyTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Cart/CartResource.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Cart/CartProductVariationResource.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" />
+        <option value="$PROJECT_DIR$/app/Models/ProductVariation.php" />
         <option value="$PROJECT_DIR$/app/Cart/Cart.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Cart/CartTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/Cart/CartIndexTest.php" />
       </list>
@@ -256,49 +266,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ecart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecart" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecart" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecart" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecart" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Unit" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="Products" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="CartInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Cart/CartIndexTest.php&#10;CartTest&#9;null&#9;null&#10;CartContro&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;Cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;CartIndexTest&#9;null&#9;null&#10;CartProductVariationResource&#9;null&#9;null&#10;CartResource&#9;null&#9;null&#10;CartDestroyTest&#9;null&#9;null&#10;CartTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;CartUpdateTest&#9;null&#9;null&#10;CartUpdateRequest&#9;null&#9;null&#10;CartContr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;CartStoreTest&#9;null&#9;null&#10;AppSer&#9;null&#9;null&#10;User&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;CartStoreRequest&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/routes/api.php&#10;cartCont&#9;null&#9;null&#10;UserTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;2020_03_22_065734_create_cart_user_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_22_065734_create_cart_user_table.php&#10;meTest&#9;null&#9;null&#10;MeC&#9;null&#9;null&#10;LoginTest&#9;null&#9;null&#10;LoginRequest&#9;null&#9;null&#10;LoginController&#9;null&#9;null&#10;RegistrationTest&#9;null&#9;null&#10;userfac&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/UserFactory.php&#10;UserTest&#9;null&#9;null&#10;RegisterRequest&#9;null&#9;null&#10;PrivateUserResource&#9;null&#9;null&#10;RegisterController&#9;null&#9;null&#10;.en&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/.env&#10;.env&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/.env&#10;Product&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Product.php&#10;ProductC&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Products/ProductController.php&#10;ProfileJsonResponse&#9;null&#9;null&#10;ProductTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductTest.php&#10;ProductInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductIndexResource.php&#10;Produ&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Product.php&#10;ProductVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;Productvari&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductVariationResource.php&#10;ProductVar&#9;null&#9;null&#10;2020_03_20_163910_product_variation_stock_view&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_163910_product_variation_stock_view.php&#10;2020_03_20_154313_create_product_variation_order_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_154313_create_product_variation_order_table.php&#10;2020_03_20_153643_create_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_153643_create_orders_table.php&#10;StockFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/StockFactory.php&#10;ProductVaria&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;2020_03_20_141427_create_stocks_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_141427_create_stocks_table.php&#10;productVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;productVar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/ProductVariation.php" />
+    <property name="SearchEverywhereHistoryKey" value="ProductVar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/ProductVariation.php&#10;CartInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Cart/CartIndexTest.php&#10;CartTest&#9;null&#9;null&#10;CartContro&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;Cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;CartIndexTest&#9;null&#9;null&#10;CartProductVariationResource&#9;null&#9;null&#10;CartResource&#9;null&#9;null&#10;CartDestroyTest&#9;null&#9;null&#10;CartTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;CartUpdateTest&#9;null&#9;null&#10;CartUpdateRequest&#9;null&#9;null&#10;CartContr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;CartStoreTest&#9;null&#9;null&#10;AppSer&#9;null&#9;null&#10;User&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;CartStoreRequest&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/routes/api.php&#10;cartCont&#9;null&#9;null&#10;UserTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;2020_03_22_065734_create_cart_user_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_22_065734_create_cart_user_table.php&#10;meTest&#9;null&#9;null&#10;MeC&#9;null&#9;null&#10;LoginTest&#9;null&#9;null&#10;LoginRequest&#9;null&#9;null&#10;LoginController&#9;null&#9;null&#10;RegistrationTest&#9;null&#9;null&#10;userfac&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/UserFactory.php&#10;UserTest&#9;null&#9;null&#10;RegisterRequest&#9;null&#9;null&#10;PrivateUserResource&#9;null&#9;null&#10;RegisterController&#9;null&#9;null&#10;.en&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/.env&#10;.env&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/.env&#10;Product&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Product.php&#10;ProductC&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Products/ProductController.php&#10;ProfileJsonResponse&#9;null&#9;null&#10;ProductTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductTest.php&#10;ProductInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductIndexResource.php&#10;Produ&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Product.php&#10;ProductVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;Productvari&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductVariationResource.php&#10;2020_03_20_163910_product_variation_stock_view&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_163910_product_variation_stock_view.php&#10;2020_03_20_154313_create_product_variation_order_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_154313_create_product_variation_order_table.php&#10;2020_03_20_153643_create_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_153643_create_orders_table.php&#10;StockFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/StockFactory.php&#10;ProductVaria&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;2020_03_20_141427_create_stocks_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_20_141427_create_stocks_table.php&#10;productVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Products/ProductVariationTest.php&#10;productVar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/ProductVariation.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -349,12 +320,14 @@
       <workItem from="1584774676937" duration="955000" />
       <workItem from="1584784363053" duration="8000000" />
       <workItem from="1584860130750" duration="10415000" />
-      <workItem from="1584958335562" duration="889000" />
+      <workItem from="1584958335562" duration="995000" />
+      <workItem from="1584960453529" duration="924000" />
+      <workItem from="1584965195930" duration="1373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46331000" />
+    <option name="totallyTimeSpent" value="48734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -391,14 +364,14 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -507,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ProductVariation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -734,27 +700,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ProductVariation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="619">
+          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
           <folding>
             <element signature="e#45#63#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/Cart/CartTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="96" column="72" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="72" />
+        <state relative-caret-position="333">
+          <caret line="153" column="8" selection-start-line="153" selection-start-column="8" selection-end-line="157" selection-end-column="10" />
           <folding>
             <element signature="e#35#53#0#PHP" expanded="true" />
           </folding>
@@ -763,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartIndexTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="e#38#70#0#PHP" expanded="true" />
           </folding>
