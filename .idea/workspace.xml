@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af5b138-7313-41b3-86a9-3f2f58d3bdea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/AddressResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/AddressResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Country.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,23 +25,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Countries/CountryController.php">
+      <file leaf-file-name="ShippingMethod.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/ShippingMethod.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="286">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#30#54#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountryIndexTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/Countries/CountryIndexTest.php">
+      <file leaf-file-name="Country.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Country.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="364">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingMethodTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/Models/ShippingMethods/ShippingMethodTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
-                <element signature="e#43#66#0#PHP" expanded="true" />
+                <element signature="e#54#73#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020_03_28_190609_create_country_shipping_method_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_28_190609_create_country_shipping_method_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -56,11 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Resources/PrivateUserResource.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/Auth/RegisterRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/tests/Unit/Models/Products/ProductTest.php" />
-        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/tests/Feature/Auth/RegistrationTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/Auth/LoginRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
@@ -87,7 +101,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2020_03_28_063516_create_countries_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/CountriesTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Models/Country.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_28_065713_create_addresses_table.php" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Models/Users/UserTest.php" />
@@ -107,6 +120,12 @@
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Countries/CountryController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/Countries/CountryIndexTest.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_03_28_185002_create_shipping_methods_table.php" />
+        <option value="$PROJECT_DIR$/database/factories/ShippingMethodfactory.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_03_28_190609_create_country_shipping_method_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/ShippingMethod.php" />
+        <option value="$PROJECT_DIR$/app/Models/Country.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Models/ShippingMethods/ShippingMethodTest.php" />
       </list>
     </option>
   </component>
@@ -242,7 +261,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="CountryIndexTest&#9;null&#9;null&#10;CountryController&#9;null&#9;null&#10;AddressCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Addresses/AddressController.php&#10;AddressTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Addresses/AddressTest.php&#10;Address&#9;null&#9;null&#10;add_default_to_addresses_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_090115_add_default_to_addresses_table.php&#10;AddressStoreTest&#9;null&#9;null&#10;AddressStoreRequest&#9;null&#9;null&#10;AddressIndexTest&#9;null&#9;null&#10;CountryResource&#9;null&#9;null&#10;AddressResource&#9;null&#9;null&#10;web&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/routes/web.php&#10;AdressController&#9;null&#9;null&#10;AddressTe&#9;null&#9;null&#10;CountryFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/CountryFactory.php&#10;AddressFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/AddressFactory.php&#10;userTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;user&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;2020_03_28_065713_create_addresses_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_065713_create_addresses_table.php&#10;Countr&#9;null&#9;null&#10;CountriesTableSeeder&#9;null&#9;null&#10;2020_03_28_063516_create_countries_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_063516_create_countries_table.php&#10;AppSer&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Providers/AppServiceProvider.php&#10;CartContro&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;ProductVariationRe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductVariationResource.php&#10;ProductVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Products/ProductVariationTest.php&#10;ProductVar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/ProductVariation.php&#10;CartInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Cart/CartIndexTest.php&#10;CartTest&#9;null&#9;null&#10;Cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;CartIndexTest&#9;null&#9;null&#10;CartProductVariationResource&#9;null&#9;null&#10;CartResource&#9;null&#9;null&#10;CartDestroyTest&#9;null&#9;null&#10;CartTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;CartUpdateTest&#9;null&#9;null&#10;CartUpdateRequest&#9;null&#9;null&#10;CartContr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;CartStoreTest&#9;null&#9;null&#10;User&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;CartStoreRequest&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/routes/api.php&#10;cartCont&#9;null&#9;null&#10;UserTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;2020_03_22_065734_create_cart_user_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_22_065734_create_cart_user_table.php&#10;meTest&#9;null&#9;null&#10;MeC&#9;null&#9;null&#10;LoginTest&#9;null&#9;null&#10;LoginRequest&#9;null&#9;null&#10;LoginController&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Countr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Country.php&#10;2020_03_28_190609_create_country_shipping_method_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_190609_create_country_shipping_method_table.php&#10;Shipp&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodfactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodTest&#9;null&#9;null&#10;Shi&#9;null&#9;null&#10;2020_03_28_185002_create_shipping_methods_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_185002_create_shipping_methods_table.php&#10;CountryIndexTest&#9;null&#9;null&#10;CountryController&#9;null&#9;null&#10;AddressCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Addresses/AddressController.php&#10;AddressTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Addresses/AddressTest.php&#10;Address&#9;null&#9;null&#10;add_default_to_addresses_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_090115_add_default_to_addresses_table.php&#10;AddressStoreTest&#9;null&#9;null&#10;AddressStoreRequest&#9;null&#9;null&#10;AddressIndexTest&#9;null&#9;null&#10;CountryResource&#9;null&#9;null&#10;AddressResource&#9;null&#9;null&#10;web&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/routes/web.php&#10;AdressController&#9;null&#9;null&#10;AddressTe&#9;null&#9;null&#10;CountryFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/CountryFactory.php&#10;AddressFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/AddressFactory.php&#10;userTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;user&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;2020_03_28_065713_create_addresses_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_065713_create_addresses_table.php&#10;CountriesTableSeeder&#9;null&#9;null&#10;2020_03_28_063516_create_countries_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_063516_create_countries_table.php&#10;AppSer&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Providers/AppServiceProvider.php&#10;CartContro&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;ProductVariationRe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Resources/ProductVariationResource.php&#10;ProductVariationTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Products/ProductVariationTest.php&#10;ProductVar&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/ProductVariation.php&#10;CartInde&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Cart/CartIndexTest.php&#10;CartTest&#9;null&#9;null&#10;Cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;CartIndexTest&#9;null&#9;null&#10;CartProductVariationResource&#9;null&#9;null&#10;CartResource&#9;null&#9;null&#10;CartDestroyTest&#9;null&#9;null&#10;CartTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;CartUpdateTest&#9;null&#9;null&#10;CartUpdateRequest&#9;null&#9;null&#10;CartContr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;CartStoreTest&#9;null&#9;null&#10;User&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;CartStoreRequest&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/routes/api.php&#10;cartCont&#9;null&#9;null&#10;UserTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -300,12 +319,12 @@
       <workItem from="1584976502296" duration="696000" />
       <workItem from="1585377238494" duration="6823000" />
       <workItem from="1585390796139" duration="872000" />
-      <workItem from="1585419257912" duration="1089000" />
+      <workItem from="1585419257912" duration="2306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58640000" />
+    <option name="totallyTimeSpent" value="59857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -362,41 +381,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/factories/ProductFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/Auth/LoginTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="49" column="66" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/Auth/RegistrationTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/Auth/RegisterRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -558,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Country.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -694,10 +671,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Countries/CountryIndexTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="286">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#43#66#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -708,12 +688,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/Countries/CountryIndexTest.php">
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_28_185002_create_shipping_methods_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ShippingMethodfactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_28_190609_create_country_shipping_method_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ShippingMethod.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="45" />
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#43#66#0#PHP" expanded="true" />
+            <element signature="e#30#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Models/ShippingMethods/ShippingMethodTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#54#73#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
