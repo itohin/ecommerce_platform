@@ -8,6 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(\App\Models\Order::class, function (Faker $faker) {
     return [
         'address_id' => factory(\App\Models\Address::class),
-        'shipping_method_id' => factory(\App\Models\ShippingMethod::class)
+        'shipping_method_id' => factory(\App\Models\ShippingMethod::class),
+        'subtotal' => 5000
     ];
 });

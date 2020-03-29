@@ -14,7 +14,8 @@ class Order extends Model
     protected $fillable = [
         'status',
         'address_id',
-        'shipping_address_id'
+        'subtotal',
+        'shipping_method_id'
     ];
 
     public static function boot()

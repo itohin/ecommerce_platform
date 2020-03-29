@@ -27,11 +27,11 @@ class ValidShippingMethod implements Rule
      */
     public function passes($attribute, $value)
     {
-        if (!$this->getAddress()) {
+        if (!$address = $this->getAddress()) {
             return false;
         }
 
-        return $this->address->country->shippingMethods->contains('id', $value);
+        return $address->country->shippingMethods->contains('id', $value);
     }
 
     /**
