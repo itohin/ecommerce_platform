@@ -11,6 +11,7 @@ $factory->define(\App\Models\Address::class, function (Faker $faker) {
         'address_1' => $faker->streetAddress,
         'city' => $faker->city,
         'postal_code' => $faker->postcode,
-        'country_id' => factory(\App\Models\Country::class)
+        'country_id' => factory(\App\Models\Country::class),
+        'user_id' => factory(\App\Models\User::class)
     ];
 });
