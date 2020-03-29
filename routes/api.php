@@ -8,6 +8,9 @@ Route::resource('products', 'Products\ProductController');
 Route::resource('addresses', 'Addresses\AddressController');
 Route::resource('countries', 'Countries\CountryController');
 
+Route::get('addresses/{address}/shipping', 'Addresses\AddressShippingController@action');
+
+
 Route::resource('cart', 'Cart\CartController', [
     'parameters' => [
         'cart' => 'productVariation'

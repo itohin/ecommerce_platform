@@ -13,7 +13,7 @@ class ShippingMethodTest extends TestCase
     public function test_it_belongs_to_many_countries()
     {
         $method = factory(ShippingMethod::class)->create();
-        
+
         $method->countries()->sync(
             factory(Country::class)->create()
         );
