@@ -18,6 +18,11 @@ class Cart
         $this->user = $user;
     }
 
+    public function products()
+    {
+        return $this->user->cart;
+    }
+
     public function withShipping($shippingId)
     {
         $this->shipping = ShippingMethod::find($shippingId);

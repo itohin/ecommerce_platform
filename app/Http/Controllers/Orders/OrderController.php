@@ -5,29 +5,35 @@ namespace App\Http\Controllers\Orders;
 use App\Cart\Cart;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Orders\OrderStoreRequest;
+use App\Models\ProductVariation;
 use Illuminate\Http\Request;
 
 class OrderController extends Controller
 {
     protected $cart;
 
-    public function __construct(Cart $cart)
+    public function __construct()
     {
         $this->middleware(['auth:api']);
-
-        $this->cart = $cart;
     }
 
-    public function store(OrderStoreRequest $request)
+    public function store(OrderStoreRequest $request, Cart $cart)
     {
-        $order = $this->createOrder($request);
+        if ($cart->isEmpty()) {
+            return response(null, 400);
+        }
+
+        $order = $this->createOrder($request, $cart);
+
+        $order->products()->sync($cart->products()->forSyncing());
+
     }
 
-    protected function createOrder($request)
+    protected function createOrder($request, Cart $cart)
     {
-        $request->user()->orders()->create(
+        return $request->user()->orders()->create(
             array_merge($request->only(['address_id', 'shipping_method_id']), [
-                'subtotal' => $this->cart->subtotal()->amount()
+                'subtotal' => $cart->subtotal()->amount()
             ])
         );
     }
