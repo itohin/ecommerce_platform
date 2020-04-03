@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af5b138-7313-41b3-86a9-3f2f58d3bdea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Events/Order/OrderCreated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events/Order/OrderCreated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Cart/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Cart/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +33,8 @@
       <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
               <folding>
                 <element signature="e#47#65#0#PHP" expanded="true" />
               </folding>
@@ -39,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderResource.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Resources/OrderResource.php">
+      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+            <state relative-caret-position="416">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -51,8 +54,8 @@
       <file leaf-file-name="OrderStoreTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="128" selection-end-column="7" />
+            <state relative-caret-position="235">
+              <caret line="135" selection-start-line="135" selection-end-line="152" selection-end-column="7" />
               <folding>
                 <element signature="e#40#74#0#PHP" expanded="true" />
               </folding>
@@ -60,14 +63,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderCreated.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Events/Order/OrderCreated.php">
+      <file leaf-file-name="Cart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1950">
+              <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+              <folding>
+                <element signature="e#28#58#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseIfEmpty.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Cart/ResponseIfEmpty.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
-                <element signature="e#36#57#0#PHP" expanded="true" />
+                <element signature="e#44#62#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sync.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Cart/Sync.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#44#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="687">
+              <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+              <folding>
+                <element signature="e#28#73#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="21" selection-start-line="21" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -85,10 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Adresses/AdressController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Adresses/AddressController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Resources/CountryResource.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/Addresses/AddressIndexTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/Addresses/AddressStoreRequest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/Addresses/AddressStoreTest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_03_28_090115_add_default_to_addresses_table.php" />
@@ -125,7 +169,6 @@
         <option value="$PROJECT_DIR$/database/factories/OrderFactory.php" />
         <option value="$PROJECT_DIR$/app/Models/Order.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Models/Orders/OrderTest.php" />
-        <option value="$PROJECT_DIR$/app/Cart/Cart.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Cart/CartTest.php" />
         <option value="$PROJECT_DIR$/app/Models/ProductVariation.php" />
         <option value="$PROJECT_DIR$/app/Models/Collections/ProductVariationCollection.php" />
@@ -133,8 +176,13 @@
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Listeners/Order/EmptyCart.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/OrderResource.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php" />
         <option value="$PROJECT_DIR$/app/Events/Order/OrderCreated.php" />
+        <option value="$PROJECT_DIR$/app/Cart/Cart.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Cart/Sync.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Cart/ResponseIfEmpty.php" />
         <option value="$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php" />
       </list>
     </option>
@@ -269,34 +317,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ecart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecart" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecart" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="OrderCrea&#9;null&#9;null&#10;OrderResource&#9;null&#9;null&#10;OrderStoreTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;Empty&#9;null&#9;null&#10;AppSer&#9;null&#9;null&#10;OrderContro&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;ProductVariationCollectionTest&#9;null&#9;null&#10;ProductVari&#9;null&#9;null&#10;CartTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;OrderStore&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;Cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;OrderContr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;OrderTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Orders/OrderTest.php&#10;Order&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Order.php&#10;OrderSt&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;OrderFac&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/OrderFactory.php&#10;UserTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;2020_03_29_155508_add_subtotal_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_155508_add_subtotal_to_orders_table.php&#10;ValidShippingMethod&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Rules/ValidShippingMethod.php&#10;user&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;OrderStoreTest&#9;null&#9;null&#10;OrderStoreRequest&#9;null&#9;null&#10;OrderController&#9;null&#9;null&#10;2020_03_29_141457_add_status_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_141457_add_status_to_orders_table.php&#10;OrderFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/OrderFactory.php&#10;OrderTest&#9;null&#9;null&#10;2020_03_29_134109_add_address_and_shipping_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_134109_add_address_and_shipping_to_orders_table.php&#10;CartIn&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Cart/CartIndexTest.php&#10;MoneyTest&#9;null&#9;null&#10;CartTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;CartCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;AddressShippingTest&#9;null&#9;null&#10;AuthSer&#9;null&#9;null&#10;AddressPolicy&#9;null&#9;null&#10;ShippingMethodResource&#9;null&#9;null&#10;AddressShippingController&#9;null&#9;null&#10;Countr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Country.php&#10;2020_03_28_190609_create_country_shipping_method_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_190609_create_country_shipping_method_table.php&#10;Shipp&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodfactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodTest&#9;null&#9;null&#10;Shi&#9;null&#9;null&#10;2020_03_28_185002_create_shipping_methods_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_185002_create_shipping_methods_table.php&#10;CountryIndexTest&#9;null&#9;null&#10;CountryController&#9;null&#9;null&#10;AddressCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Addresses/AddressController.php&#10;AddressTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Addresses/AddressTest.php&#10;Address&#9;null&#9;null&#10;add_default_to_addresses_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_090115_add_default_to_addresses_table.php" />
+    <property name="SearchEverywhereHistoryKey" value="OrderStore&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;ResponseIfEmpty&#9;null&#9;null&#10;AppSer&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Providers/AppServiceProvider.php&#10;Sync&#9;null&#9;null&#10;Cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;OrderC&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;CartCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;OrderCrea&#9;null&#9;null&#10;OrderResource&#9;null&#9;null&#10;OrderStoreTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;Empty&#9;null&#9;null&#10;OrderContro&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;ProductVariationCollectionTest&#9;null&#9;null&#10;ProductVari&#9;null&#9;null&#10;CartTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;OrderContr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;OrderTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Orders/OrderTest.php&#10;Order&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Order.php&#10;OrderSt&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;OrderFac&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/OrderFactory.php&#10;UserTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;2020_03_29_155508_add_subtotal_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_155508_add_subtotal_to_orders_table.php&#10;ValidShippingMethod&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Rules/ValidShippingMethod.php&#10;user&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;OrderStoreTest&#9;null&#9;null&#10;OrderStoreRequest&#9;null&#9;null&#10;OrderController&#9;null&#9;null&#10;2020_03_29_141457_add_status_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_141457_add_status_to_orders_table.php&#10;OrderFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/OrderFactory.php&#10;OrderTest&#9;null&#9;null&#10;2020_03_29_134109_add_address_and_shipping_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_134109_add_address_and_shipping_to_orders_table.php&#10;CartIn&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Cart/CartIndexTest.php&#10;MoneyTest&#9;null&#9;null&#10;CartTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;AddressShippingTest&#9;null&#9;null&#10;AuthSer&#9;null&#9;null&#10;AddressPolicy&#9;null&#9;null&#10;ShippingMethodResource&#9;null&#9;null&#10;AddressShippingController&#9;null&#9;null&#10;Countr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Country.php&#10;2020_03_28_190609_create_country_shipping_method_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_190609_create_country_shipping_method_table.php&#10;Shipp&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodfactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodTest&#9;null&#9;null&#10;Shi&#9;null&#9;null&#10;2020_03_28_185002_create_shipping_methods_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_185002_create_shipping_methods_table.php&#10;CountryIndexTest&#9;null&#9;null&#10;CountryController&#9;null&#9;null&#10;AddressCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Addresses/AddressController.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -359,12 +383,13 @@
       <workItem from="1585474176568" duration="29000" />
       <workItem from="1585489111342" duration="6582000" />
       <workItem from="1585549935051" duration="3720000" />
-      <workItem from="1585890357187" duration="2740000" />
+      <workItem from="1585890357187" duration="2906000" />
+      <workItem from="1585905118764" duration="1223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79140000" />
+    <option name="totallyTimeSpent" value="80529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -396,22 +421,22 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20507812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20507812" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,27 +446,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Resources/CountryResource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/Addresses/AddressStoreTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Addresses/AddressStoreRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_28_090115_add_default_to_addresses_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
@@ -596,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="35" column="71" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_03_29_134109_add_address_and_shipping_to_orders_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -683,16 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#28#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/Cart/CartTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -721,20 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -746,26 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="e#39#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Resources/OrderResource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="e#47#65#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,10 +732,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/OrderResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+          <folding>
+            <element signature="e#28#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Cart/Sync.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding>
+            <element signature="e#28#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+          <folding>
+            <element signature="e#47#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Cart/ResponseIfEmpty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#44#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="128" selection-end-column="7" />
+        <state relative-caret-position="235">
+          <caret line="135" selection-start-line="135" selection-end-line="152" selection-end-column="7" />
           <folding>
             <element signature="e#40#74#0#PHP" expanded="true" />
           </folding>
