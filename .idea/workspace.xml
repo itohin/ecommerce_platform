@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af5b138-7313-41b3-86a9-3f2f58d3bdea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/Order/OrderCreated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events/Order/OrderCreated.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="330">
+              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="e#47#65#0#PHP" expanded="true" />
               </folding>
@@ -40,13 +39,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="OrderResource.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Resources/OrderResource.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OrderStoreTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="208" column="40" selection-start-line="208" selection-start-column="40" selection-end-line="208" selection-end-column="40" />
+            <state relative-caret-position="212">
+              <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="128" selection-end-column="7" />
               <folding>
                 <element signature="e#40#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderCreated.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Events/Order/OrderCreated.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#36#57#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2020_03_28_065713_create_addresses_table.php" />
-        <option value="$PROJECT_DIR$/database/factories/CountryFactory.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Adresses/AdressController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Adresses/AddressController.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/CountryResource.php" />
@@ -113,8 +131,10 @@
         <option value="$PROJECT_DIR$/app/Models/Collections/ProductVariationCollection.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Collections/ProductVariationCollectionTest.php" />
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php" />
         <option value="$PROJECT_DIR$/app/Listeners/Order/EmptyCart.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/OrderResource.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php" />
+        <option value="$PROJECT_DIR$/app/Events/Order/OrderCreated.php" />
         <option value="$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php" />
       </list>
     </option>
@@ -276,7 +296,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="OrderStoreTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;Empty&#9;null&#9;null&#10;AppSer&#9;null&#9;null&#10;OrderContro&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;ProductVariationCollectionTest&#9;null&#9;null&#10;ProductVari&#9;null&#9;null&#10;CartTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;OrderStore&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;Cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;OrderContr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;OrderTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Orders/OrderTest.php&#10;Order&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Order.php&#10;OrderSt&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;OrderFac&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/OrderFactory.php&#10;UserTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;2020_03_29_155508_add_subtotal_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_155508_add_subtotal_to_orders_table.php&#10;ValidShippingMethod&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Rules/ValidShippingMethod.php&#10;user&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;OrderStoreTest&#9;null&#9;null&#10;OrderStoreRequest&#9;null&#9;null&#10;OrderController&#9;null&#9;null&#10;2020_03_29_141457_add_status_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_141457_add_status_to_orders_table.php&#10;OrderFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/OrderFactory.php&#10;OrderTest&#9;null&#9;null&#10;2020_03_29_134109_add_address_and_shipping_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_134109_add_address_and_shipping_to_orders_table.php&#10;CartIn&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Cart/CartIndexTest.php&#10;MoneyTest&#9;null&#9;null&#10;CartTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;CartCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;AddressShippingTest&#9;null&#9;null&#10;AuthSer&#9;null&#9;null&#10;AddressPolicy&#9;null&#9;null&#10;ShippingMethodResource&#9;null&#9;null&#10;AddressShippingController&#9;null&#9;null&#10;Countr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Country.php&#10;2020_03_28_190609_create_country_shipping_method_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_190609_create_country_shipping_method_table.php&#10;Shipp&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodfactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodTest&#9;null&#9;null&#10;Shi&#9;null&#9;null&#10;2020_03_28_185002_create_shipping_methods_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_185002_create_shipping_methods_table.php&#10;CountryIndexTest&#9;null&#9;null&#10;CountryController&#9;null&#9;null&#10;AddressCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Addresses/AddressController.php&#10;AddressTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Addresses/AddressTest.php&#10;Address&#9;null&#9;null&#10;add_default_to_addresses_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_090115_add_default_to_addresses_table.php&#10;AddressStoreTest&#9;null&#9;null&#10;AddressStoreRequest&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="OrderCrea&#9;null&#9;null&#10;OrderResource&#9;null&#9;null&#10;OrderStoreTe&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;Empty&#9;null&#9;null&#10;AppSer&#9;null&#9;null&#10;OrderContro&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;ProductVariationCollectionTest&#9;null&#9;null&#10;ProductVari&#9;null&#9;null&#10;CartTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;OrderStore&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;Cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;OrderContr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Orders/OrderController.php&#10;OrderTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Orders/OrderTest.php&#10;Order&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Order.php&#10;OrderSt&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Orders/OrderStoreTest.php&#10;OrderFac&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/OrderFactory.php&#10;UserTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Users/UserTest.php&#10;2020_03_29_155508_add_subtotal_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_155508_add_subtotal_to_orders_table.php&#10;ValidShippingMethod&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Rules/ValidShippingMethod.php&#10;user&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/User.php&#10;OrderStoreTest&#9;null&#9;null&#10;OrderStoreRequest&#9;null&#9;null&#10;OrderController&#9;null&#9;null&#10;2020_03_29_141457_add_status_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_141457_add_status_to_orders_table.php&#10;OrderFactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/OrderFactory.php&#10;OrderTest&#9;null&#9;null&#10;2020_03_29_134109_add_address_and_shipping_to_orders_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_29_134109_add_address_and_shipping_to_orders_table.php&#10;CartIn&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Feature/Cart/CartIndexTest.php&#10;MoneyTest&#9;null&#9;null&#10;CartTes&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Cart/CartTest.php&#10;cart&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Cart/Cart.php&#10;CartCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Cart/CartController.php&#10;AddressShippingTest&#9;null&#9;null&#10;AuthSer&#9;null&#9;null&#10;AddressPolicy&#9;null&#9;null&#10;ShippingMethodResource&#9;null&#9;null&#10;AddressShippingController&#9;null&#9;null&#10;Countr&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Models/Country.php&#10;2020_03_28_190609_create_country_shipping_method_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_190609_create_country_shipping_method_table.php&#10;Shipp&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodfactory&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/factories/ShippingMethodfactory.php&#10;ShippingMethodTest&#9;null&#9;null&#10;Shi&#9;null&#9;null&#10;2020_03_28_185002_create_shipping_methods_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_185002_create_shipping_methods_table.php&#10;CountryIndexTest&#9;null&#9;null&#10;CountryController&#9;null&#9;null&#10;AddressCo&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/app/Http/Controllers/Addresses/AddressController.php&#10;AddressTest&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/tests/Unit/Models/Addresses/AddressTest.php&#10;Address&#9;null&#9;null&#10;add_default_to_addresses_table&#9;FILE&#9;file:///Users/itoxa/Desktop/code/ecart/database/migrations/2020_03_28_090115_add_default_to_addresses_table.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -339,12 +359,12 @@
       <workItem from="1585474176568" duration="29000" />
       <workItem from="1585489111342" duration="6582000" />
       <workItem from="1585549935051" duration="3720000" />
-      <workItem from="1585890357187" duration="1360000" />
+      <workItem from="1585890357187" duration="2740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77760000" />
+    <option name="totallyTimeSpent" value="79140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="960" extended-state="0" />
@@ -401,20 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/Addresses/AddressIndexTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Resources/CountryResource.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -746,20 +752,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/OrderResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Orders/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="330">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="e#47#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/Order/OrderCreated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#36#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/Orders/OrderStoreTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="208" column="40" selection-start-line="208" selection-start-column="40" selection-end-line="208" selection-end-column="40" />
+        <state relative-caret-position="212">
+          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="128" selection-end-column="7" />
           <folding>
             <element signature="e#40#74#0#PHP" expanded="true" />
           </folding>
