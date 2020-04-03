@@ -2,6 +2,7 @@
 
 namespace Tests\Feature\Orders;
 
+use App\Events\Order\OrderCreated;
 use App\Models\Address;
 use App\Models\Country;
 use App\Models\ProductVariation;
@@ -10,6 +11,7 @@ use App\Models\Stock;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
+use Illuminate\Support\Facades\Event;
 use Tests\TestCase;
 
 class OrderStoreTest extends TestCase
@@ -165,5 +167,45 @@ class OrderStoreTest extends TestCase
         $shipping->countries()->attach($address->country);
 
         return [$address, $shipping];
+    }
+
+    public function test_it_fires_an_order_created_event()
+    {
+        Event::fake();
+
+        $user = factory(User::class)->create();
+
+        $user->cart()->sync(
+            $product = $this->productWithStock()
+        );
+
+        [$address, $shipping] = $this->orderDependencies($user);
+
+        $this->jsonAs($user, 'POST', 'api/orders', [
+            'shipping_method_id' => $shipping->id,
+            'address_id' => $address->id,
+            'subtotal' => 5000
+        ]);
+
+        Event::assertDispatched(OrderCreated::class);
+    }
+
+    public function test_it_empties_the_cart()
+    {
+        $user = factory(User::class)->create();
+
+        $user->cart()->sync(
+            $product = $this->productWithStock()
+        );
+
+        [$address, $shipping] = $this->orderDependencies($user);
+
+        $this->jsonAs($user, 'POST', 'api/orders', [
+            'shipping_method_id' => $shipping->id,
+            'address_id' => $address->id,
+            'subtotal' => 5000
+        ]);
+
+        $this->assertEmpty($user->cart);
     }
 }
